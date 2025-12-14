@@ -21,7 +21,7 @@
    /* COLOR START */
   --color-primary-default: #473936;
   --color-secondary-default: #f2dfce;
-  --color-secondary-default-100:'#cea39c';
+  --color-secondary-default-100:#cea39c;
   --color-accent-default: #f19687;
   --color-accent-100: #f2d5c5;
 /* COLOR END */
@@ -207,4 +207,9 @@ font-family:var(--font-marcellus);
 .input::placeholder,
 .textarea::placeholder {
   font-family: var(--font-marcellus);
+}
+
+
+.globalSidePadding{
+  @apply px-8 max-w-[1920px] w-full mx-auto
 }
