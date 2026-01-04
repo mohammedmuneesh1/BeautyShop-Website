@@ -33,31 +33,33 @@ const Header = () => {
       >
         <div
           className="w-full max-w-full 
-              flex items-center   justify-between globalSidePadding"
+              flex items-center  justify-between globalSidePadding"
         >
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className=" flex flex-col lg:flex-row
+            className=" flex flex-row
                  items-center
                  h-full gap-2 xl:gap-6 justify-between 
-                 xl:w-auto xl:justify-normal "
+                w-full lg:w-auto lg:justify-normal "
           >
             <div className="flex items-center gap-2 text-white">
               <FaPhoneAlt />
               <span>+91 96454765070 </span>
             </div>
+
             <div className="flex items-center gap-2 text-white">
               <IoMdMail />
               <span>info@serene.com</span>
             </div>
+
           </motion.div>
 
           {/*SOCIALS START */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="hidden xl:block "
+            className="hidden lg:block "
           >
             <Socials containerStyle={"flex gap-6 items-center text-white"} />
           </motion.div>

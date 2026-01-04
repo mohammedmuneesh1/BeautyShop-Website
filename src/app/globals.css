@@ -14,7 +14,7 @@
   --breakpoint-lg: 960px;
   --breakpoint-xl: 1430px;
   --breakpoint-2xl: 1920px;
-  --breakpoint-3xl: 2260px;
+  --breakpoint-3xl: 2160px;
    --font-family-primary: var(--font-marcellus);
    --font-family-secondary: var(--font-montserrat);
 
@@ -157,19 +157,21 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-family:var(--font-marcellus);
 }
-.h1{
+h1{
   @apply text-[64px] leading-none xl:text-[72px] xl:leading-[76px];
 }
-.h2{
+h2{
   @apply text-[48px] leading-[54px];
 }
-.h3{
+h3{
   @apply text-[36px] leading-[48px];
 }
+
 .h4{
   @apply text-xl;
 }
-.lead{
+
+lead{
   @apply text-lg mb-8
 
 }
@@ -185,16 +187,16 @@ font-family:var(--font-marcellus);
 
   @apply bg-accent-default min-w-[178px] 
   rounded-tl-[30px] rounded-bl-[30px] rounded-tr-[4px] rounded-br-[24px] 
-   uppercase tracking-[1px] h-[58px] pl-8 pr-6 flex items-center justify-center text-white; 
+   uppercase tracking-[1px] h-[58px] pl-8 pr-6 flex items-center justify-center text-white cursor-pointer; 
 };
 
 .input{
-  @apply h-[54px] bg-white rounded-full
+  @apply h-[54px] bg-white rounded-full px-4 
 }
 
 
 .textarea{
-  @apply h-[120px] rounded-[20px] px-6 pt-4 resize-none;
+  @apply h-[120px] rounded-[20px] px-6 pt-4 resize-none bg-white;
 }
 
 
@@ -211,5 +213,5 @@ font-family:var(--font-marcellus);
 
 
 .globalSidePadding{
-  @apply px-8 max-w-[1920px] w-full mx-auto
+  @apply  px-5 sm:px-6 lg:px-8 max-w-[2160px] w-full mx-auto
 }

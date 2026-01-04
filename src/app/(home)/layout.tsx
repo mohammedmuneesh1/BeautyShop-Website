@@ -9,14 +9,14 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <section>
       <CursorProvider>
-        {/* <Transition/> */}
+        <Transition/>
       <Header />
       <main
       className="bg-secondary-default/100"
       >
+        <PageTransition>
         {children}
-        {/* <PageTransition>
-        </PageTransition> */}
+        </PageTransition>
         </main>
 </CursorProvider>
     </section>

@@ -1,6 +1,6 @@
 
 
-//--------------------  12-12-205 START ---------------------------------------
+//--------------------  12-12-2025 START ---------------------------------------
 
 1) project starting at 6:41pm 
 
@@ -38,8 +38,8 @@ You may now add components.
 
 
 
-//--------------------  12-12-205 END ---------------------------------------
-//--------------------  13-12-205 START ---------------------------------------
+//--------------------  12-12-2025 END ---------------------------------------
+//--------------------  13-12-2025 START ---------------------------------------
 <div className='hidden xl:flex xl:h-screen  
         xl:w-screen fixed top-0 left-0  right-0 pointer-events-none z-999'>
 
@@ -158,4 +158,45 @@ Animate to top: -100%
 
 
 
-//--------------------  13-12-205 END ---------------------------------------
+//--------------------  13-12-2025 END ---------------------------------------
+
+
+
+//--------------------  03-01-2026 START ---------------------------------------
+
+
+
+ABOUTCLIENTPAGE 
+
+
+
+
+  PAGEtRANSITION = 1.5 SECOND   SLIDE TRANSITION = 0.6 
+
+  THERER FOR 
+
+     <motion.div
+        initial={{
+          opacity:0,
+          x:-60 
+        }}
+        animate={{
+          opacity:1,
+          x:0,
+          transition:{
+            delay:2, (PAGE TRANSITION+ SLIDE_TRANSITION)
+            duration:0.8,
+            ease:'easeInOut'
+          }
+        }}
+        //  className='relative aspect-[16/13]  bg-blue-400
+         className='h-full 
+          md:w-1/2
+           overflow-hidden max-md:mb-8
+           '>
+
+
+
+
+
+//--------------------  03-01-2026 END ---------------------------------------

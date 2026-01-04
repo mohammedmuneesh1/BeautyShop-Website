@@ -23,7 +23,7 @@ const PageTransition = ({
                 }
         }}
         className='w-screen h-screen fixed z-999
-         bg-white top-0 pointer-events-none'
+         bg-slate-50 top-0 pointer-events-none'
         />
         {children}
     </AnimatePresence>
